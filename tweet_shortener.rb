@@ -32,7 +32,7 @@ def word_substituter(string)
 end
 
 def bulk_tweet_shortener(array)
-  array.collect do |tweets|
+  puts array.collect do |tweets|
     string_array= tweets.split
     dictionary.each do |key, value|
       string_array.each_with_index do |word,index|
