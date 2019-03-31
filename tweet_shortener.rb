@@ -30,3 +30,4 @@ def word_substituter(string)
   string_array.join(" ")
   
 end
+
