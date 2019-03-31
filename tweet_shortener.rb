@@ -20,9 +20,9 @@ def word_substituter(string)
   string_array= ass.split
   
   dictionary.each do |key, value|
-    string_array.each do |word|
+    string_array.each_with_index do |word,index|
       if word == key
-        word = value
+        string_array[index] = value
       end
     end
   end
