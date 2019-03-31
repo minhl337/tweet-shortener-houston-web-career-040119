@@ -19,7 +19,12 @@ def word_substituter(string)
   
   string_array= string.split
   
-  
+  dictionary.each do |key, value|
+    string.array.each do |word|
+      if word == key
+        word = value
+    end
+  end
   
   
   
