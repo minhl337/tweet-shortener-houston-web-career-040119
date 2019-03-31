@@ -17,7 +17,7 @@ end
 
 def word_substituter(string)
   
-  string_array= ass.split
+  string_array= string.split
   
   dictionary.each do |key, value|
     string_array.each_with_index do |word,index|
