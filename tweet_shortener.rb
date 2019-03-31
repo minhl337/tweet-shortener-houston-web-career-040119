@@ -21,6 +21,7 @@ def word_substituter(string)
   
   dictionary.each do |key, value|
     string_array.each_with_index do |word,index|
+      word = word.downcase
       if word == key
         string_array[index] = value
       end
@@ -36,6 +37,7 @@ def bulk_tweet_shortener(array)
     string_array= tweets.split
     dictionary.each do |key, value|
       string_array.each_with_index do |word,index|
+        word = word.downcase
         if word == key
           string_array[index] = value
         end
