@@ -9,3 +9,5 @@ def dictionary
   "at" becomes "@" 
   "and" becomes "&"
 end
+
+def word_substituter
