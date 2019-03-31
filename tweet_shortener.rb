@@ -69,7 +69,6 @@ end
 def shortened_tweet_truncator(string)
   if tweet.length > 140 
     string_array= tweet.split
-  
     dictionary.each do |key, value|
       string_array.each_with_index do |word,index|
         word = word.downcase
@@ -78,11 +77,8 @@ def shortened_tweet_truncator(string)
         end
       end
     end
-  
-  string_array.join(" ")
-else
+    string_array.join(" ")
+  else
   return tweet
   end
-  
-  
 end
