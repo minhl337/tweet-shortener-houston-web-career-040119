@@ -77,8 +77,8 @@ def shortened_tweet_truncator(string)
         end
       end
     end
-    string_array.join(" ")
-    string_array[0..136]+"..."
+    string_array.join(" ")[0..136]+"..."
+    
   else
   return string
   end
