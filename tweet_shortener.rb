@@ -49,6 +49,19 @@ end
 
 def selective_tweet_shortener(tweet)
   if tweet.length > 140 
-    
-end
+      string_array= string.split
+  
+  dictionary.each do |key, value|
+    string_array.each_with_index do |word,index|
+      word = word.downcase
+      if word == key
+        string_array[index] = value
+      end
+    end
+  end
+  
+  string_array.join(" ")
+else
+  return tweet
+  end
 end
