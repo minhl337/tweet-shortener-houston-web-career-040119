@@ -23,6 +23,7 @@ def word_substituter(string)
     string.array.each do |word|
       if word == key
         word = value
+      end
     end
   end
   
