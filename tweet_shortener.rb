@@ -49,7 +49,7 @@ end
 
 def selective_tweet_shortener(tweet)
   if tweet.length > 140 
-      string_array= string.split
+      string_array= tweet.split
   
   dictionary.each do |key, value|
     string_array.each_with_index do |word,index|
