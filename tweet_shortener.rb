@@ -33,9 +33,8 @@ end
 
 def bulk_tweet_shortener(array)
   array.collect do |tweets|
-  
+    string_array= tweets.split
     dictionary.each do |key, value|
-      string_array= string.split
       string_array.each_with_index do |word,index|
         if word == key
           string_array[index] = value
