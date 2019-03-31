@@ -80,6 +80,6 @@ def shortened_tweet_truncator(string)
     string_array.join(" ")
     string_array[0..136]+"..."
   else
-  return tweet
+  return string
   end
 end
