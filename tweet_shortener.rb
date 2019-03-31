@@ -1,6 +1,6 @@
 # Write your code here.
 
-def dictionary
+dictionary={
   "hello" becomes 'hi'
   "to, two, too" become '2' 
   "for, four" become '4'
@@ -8,7 +8,7 @@ def dictionary
   'you' becomes 'u'
   "at" becomes "@" 
   "and" becomes "&"
-end
+}
 
 def word_substituter(string)
   
