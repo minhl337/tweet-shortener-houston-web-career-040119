@@ -10,4 +10,6 @@ def dictionary
   "and" becomes "&"
 end
 
-def word_substituter
+def word_substituter(string)
+  
+end
