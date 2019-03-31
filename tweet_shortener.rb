@@ -66,4 +66,6 @@ else
   end
 end
 
-
+def shortened_tweet_truncator(string)
+  
+end
