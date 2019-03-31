@@ -16,11 +16,10 @@ def dictionary
 end
 
 def word_substituter(string)
-  dictionary
   
   string_array= string.split
   
-  puts dictionary_hash
+  
   
   
   
